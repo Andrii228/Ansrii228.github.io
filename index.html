@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <title>Links Example</title>
+    <script src="link.js"></script>
+</head>
+
+<body>
+    <!--   <img src="zaz_1.png" class="background">-->
+    <header>
+
+        <nav id "Menu">
+            <ul>
+                <li> <a href="/">Головна</a> </li>
+                <li> <a href="/about"> Про нас! </a> </li>
+                <li> <a href="/contacs">Контакти</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <div>
+            <a href="#">Необязательный пункт 1</a>
+            <a href="#">Необязательный пункт 2</a>
+            <a href="#">Необязательный пункт 3</a>
+        </div>
+    </aside>
+    <main>
+
+        <h2>Новости</h2>
+
+        <article>
+            <h3>Новость 1</h3>
+            <p>Текст новости 1</p>
+            <a href="#">Подробнее</a>
+        </article>
+
+        <article>
+            <h3>Новость 2</h3>
+            <p>Текст новости 2</p>
+            <a href="#">Подробнее</a>
+        </article>
+
+        <article>
+            <h3>Новость 3</h3>
+            <p>Текст новости 3</p>
+            <a href="#">Подробнее</a>
+        </article>
+    </main>
+    <noscript>Включите ДжаваСкрипт!!!</noscript>
+    <script src="js/main.js">
+    </script>
+
+    <script>
+        // Присваиваем ссылки тегам <a> из link.js
+        document.getElementById('google-link').href = link.google;
+        document.getElementById('github-link').href = link.github;
+        document.getElementById('stackoverflow-link').href = link.stackoverflow;
+
+    </script>
+
+</body>
+
+</html>
